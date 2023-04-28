@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: my-consul-client-a
+  cloud:
+    consul:
+      host: 192.168.56.101
+      port: 8500
+      discovery:
+        heartbeat:
+          enabled: true # 心跳机制
+server:
+  port: 8081
+
